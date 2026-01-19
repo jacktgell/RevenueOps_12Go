@@ -1,0 +1,23 @@
+
+
+# --- Core Data Science ---
+pandas==2.3.3
+numpy==2.3.5
+scikit-learn==1.7.2
+scipy==1.17.0
+
+# --- Modeling Frameworks ---
+torch==2.9.1
+pytorch-tabnet==4.1.0
+xgboost==3.1.3
+catboost==1.2.8
+tabpfn==6.3.1
+imbalanced-learn==0.14.1
+
+# --- Visualization & Interpretation ---
+matplotlib==3.10.8
+seaborn==0.13.2
+shap==0.50.0
+
+# --- Utilities ---
+tqdm==4.67.1
