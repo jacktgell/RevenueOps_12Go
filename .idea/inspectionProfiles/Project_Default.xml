@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="SQLAlchemy" />
+          <option value="psycopg2-binary" />
+          <option value="python-dotenv" />
+          <option value="google-cloud-secret-manager" />
+          <option value="google-cloud-logging" />
+          <option value="python-binance" />
+          <option value="colorama" />
+          <option value="singleton-decorator" />
+          <option value="pydantic" />
+          <option value="pydantic_core" />
+          <option value="ccxt" />
+          <option value="pyyaml" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

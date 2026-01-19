@@ -21,3 +21,4 @@ shap==0.50.0
 
 # --- Utilities ---
 tqdm==4.67.1
+kaleido==0.3.1
