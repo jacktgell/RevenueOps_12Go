@@ -2,6 +2,8 @@ import contextlib
 import os
 import warnings
 
+from tqdm import TqdmWarning
+warnings.filterwarnings("ignore", module="pytorch_tabnet.callbacks")
 import torch
 from pytorch_tabnet.tab_model import TabNetClassifier
 from pytorch_tabnet.metrics import Metric
@@ -315,3 +317,5 @@ class TabNetModel:
         if hasattr(X, 'values'):
             X = X.values
         return self.model.predict_proba(X)
+
+
